@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2e7d32;
+}
+
+/* Contenedor */
+.contenedor {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+/* Menú */
+nav {
+    background-color: #1b5e20;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    left: 5%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a5d6a7;
+}
+
+/* Espacio para el menú */
+.espacio {
+    height: 70px;
+}
+
+/* Imagen principal */
+header img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Contenido */
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1b5e20;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Cajas */
+.caja {
+    background-color: #f1f8e9;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 5px solid #2e7d32;
+}
+
+/* BOTÓN ITLA */
+.caja a {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.caja a:hover {
+    background-color: #1b5e20;
+}
+
+/* ========================= */
+/* ESTUDIANTES (NOSOTROS) 🔥 */
+/* ========================= */
+
+.estudiantes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.estudiante {
+    width: 18%;
+    text-align: center;
+}
+
+.estudiante img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0; /* cuadrado */
+    border: 3px solid #2e7d32;
+}
+
+.estudiante p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Efecto opcional bonito */
+.estudiante img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+.estudiante img {
+    cursor: pointer;
+}
+
+.estudiante img:hover {
+    transform: scale(1.08);
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Quitar estilo por defecto de los enlaces */
+a {
+    color: inherit; /* usa el color del texto normal */
+    text-decoration: none; /* quita la línea */
+}
+
+.docente {
+    display: flex;
+    justify-content: flex-start; /* alineado a la izquierda */
+    margin-top: 20px;
+}
+
+.profesor {
+    width: 18%; /* mismo tamaño que estudiantes */
+    text-align: center;
+}
+
+.profesor img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0;
+    border: 3px solid #2e7d32;
+}
+
+.profesor p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.profesor img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
