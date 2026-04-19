@@ -182,10 +182,16 @@ a {
     margin: 0;
 }
 
+/* 🔥 separación REAL entre recuadros */
 .caja li {
     background: #f4f4f4;
-    margin-bottom: 12px;  /* 👈 esto separa las fuentes */
     padding: 12px;
     border-radius: 10px;
-    line-height: 1.5; /* mejora lectura */
+
+    margin: 0 0 15px 0; /* 👈 espacio abajo obligatorio */
+}
+
+/* elimina el espacio del último */
+.caja li:last-child {
+    margin-bottom: 0;
 }
