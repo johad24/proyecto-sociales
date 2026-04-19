@@ -4,6 +4,7 @@ body {
     background-color: #2e7d32;
 }
 
+
 /* Contenedor */
 .contenedor {
     width: 90%;
@@ -172,4 +173,19 @@ a {
 .profesor img:hover {
     transform: scale(1.05);
     transition: 0.3s;
+}
+
+
+.caja ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.caja li {
+    background: #f4f4f4;
+    margin-bottom: 12px;  /* 👈 esto separa las fuentes */
+    padding: 12px;
+    border-radius: 10px;
+    line-height: 1.5; /* mejora lectura */
 }
